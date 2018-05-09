@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <annotation>determine SWAT team developer on call and send message</annotation>
+        <category display_value="Default">4ce011350b111300775a2f5995673a51</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>subflow to contact SWAT team developer on call for SWAT team incidents</description>
+        <internal_name>contact_swat_team</internal_name>
+        <label_cache>[{"name":"subflow.incident","label":"Input➛Incident","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference"},{"name":"2e819c6d-e540-4a97-aa92-c24ec8a07e8b.work_notes_count","label":"1➛Work notes count","reference_display":"Work notes count"},{"name":"subflow.incident.sys_updated_on","label":"Input➛Incident➛Updated","reference":"","reference_display":"Updated","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"incident","column_name":"sys_updated_on"},{"name":"subflow.incident.sys_updated_by","label":"Input➛Incident➛Updated by","reference":"","reference_display":"Updated by","type":"string","base_type":"string","parent_table_name":"incident","column_name":"sys_updated_by"},{"name":"0c18e487-6b52-4eaf-99ec-5e2b7f2eacc5.Record","label":"2.1➛Devs on Call Record","reference":"sn_time_is_money_dev_on_call","reference_display":"Devs on Call Record"},{"name":"0c18e487-6b52-4eaf-99ec-5e2b7f2eacc5.Table","label":"2.1➛Devs on Call Table","reference":"sn_time_is_money_dev_on_call","reference_display":"Devs on Call Table"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Contact SWAT team</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-09 23:22:42</sys_created_on>
+        <sys_id>f9c5d824804613007f44ae10b8f77026</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Contact SWAT team</sys_name>
+        <sys_package display_value="Time is Money" source="sn_time_is_money">4d7f60b30b301300775a2f5995673aee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Time is Money">4d7f60b30b301300775a2f5995673aee</sys_scope>
+        <sys_update_name>sys_hub_flow_f9c5d824804613007f44ae10b8f77026</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-09 23:38:15</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=f9c5d824804613007f44ae10b8f77026"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f9c5d824804613007f44ae10b8f77026"/>
+</record_update>

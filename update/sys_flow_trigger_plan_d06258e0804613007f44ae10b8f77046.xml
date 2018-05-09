@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_trigger_plan">
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"d06258e0804613007f44ae10b8f77046","name":"plan"}}</plan>
+        <plan_id>a8f114e0804613007f44ae10b8f770ff</plan_id>
+        <snapshot>47d4d424804613007f44ae10b8f770f7</snapshot>
+        <sys_class_name>sys_flow_trigger_plan</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-09 23:07:51</sys_created_on>
+        <sys_id>d06258e0804613007f44ae10b8f77046</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>5c6258e0804613007f44ae10b8f77043</sys_name>
+        <sys_package display_value="Time is Money" source="sn_time_is_money">4d7f60b30b301300775a2f5995673aee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Time is Money">4d7f60b30b301300775a2f5995673aee</sys_scope>
+        <sys_update_name>sys_flow_trigger_plan_d06258e0804613007f44ae10b8f77046</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-09 23:13:33</sys_updated_on>
+        <trigger display_value="">5c6258e0804613007f44ae10b8f77043</trigger>
+    </sys_flow_trigger_plan>
+</record_update>

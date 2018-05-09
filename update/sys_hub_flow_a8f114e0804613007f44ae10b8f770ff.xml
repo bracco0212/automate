@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>test autromate</description>
+        <internal_name>automate_swat_team_incident</internal_name>
+        <label_cache>[{"name":"Created_1.current.assignment_group","label":"Trigger➛Incident Record➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"incident","column_name":"assignment_group"},{"name":"Created_1.current.short_description","label":"Trigger➛Incident Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"incident","column_name":"short_description"},{"name":"Created_1.current","label":"Trigger➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference"}]</label_cache>
+        <latest_snapshot>47d4d424804613007f44ae10b8f770f7</latest_snapshot>
+        <master_snapshot>fb5218e0804613007f44ae10b8f770f8</master_snapshot>
+        <name>Automate SWAT team incident</name>
+        <outputs/>
+        <remote_trigger_id>5c6258e0804613007f44ae10b8f77043</remote_trigger_id>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-09 23:05:56</sys_created_on>
+        <sys_id>a8f114e0804613007f44ae10b8f770ff</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Automate SWAT team incident</sys_name>
+        <sys_package display_value="Time is Money" source="sn_time_is_money">4d7f60b30b301300775a2f5995673aee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Time is Money">4d7f60b30b301300775a2f5995673aee</sys_scope>
+        <sys_update_name>sys_hub_flow_a8f114e0804613007f44ae10b8f770ff</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-05-09 23:18:41</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=a8f114e0804613007f44ae10b8f770ff"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a8f114e0804613007f44ae10b8f770ff"/>
+</record_update>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">3d591c64804613007f44ae10b8f77088</block>
+        <comment/>
+        <connected_to/>
+        <display_text/>
+        <flow display_value="Contact SWAT team">f9c5d824804613007f44ae10b8f77026</flow>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>44c796bd-13a4-4655-9bfd-e89ad49ba614</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-09 23:38:15</sys_created_on>
+        <sys_id>75591c64804613007f44ae10b8f7708a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Time is Money" source="sn_time_is_money">4d7f60b30b301300775a2f5995673aee</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Time is Money">4d7f60b30b301300775a2f5995673aee</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_75591c64804613007f44ae10b8f7708a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-09 23:38:15</sys_updated_on>
+        <ui_id>a6b26126-b9b2-4afb-82d7-493f591b3f6c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=75591c64804613007f44ae10b8f7708a"/>
+</record_update>
